@@ -1,6 +1,6 @@
 # Личный проект «Пинк» 
 
-* Студент: [Виталий Вяткин](https://up.htmlacademy.ru/adaptive/22/user/1642777).
+* Студент: [Виталий Вяткин](https://htmlacademy.ru/profile/id1642777).
 * Наставник: [Евгений Бервяченок](https://htmlacademy.ru/profile/jackson)
 
 ---
