@@ -1,12 +1,214 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Пинк</title>
-  </head>
-  <body>
+<html class="page" lang="ru">
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS. Адаптивная вёрстка и автоматизация</a>».</p>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Пинк</title>
+</head>
 
-  </body>
+<body class="page__body">
+  <header class="page-header">
+    <a class="page-header__logo" href="/">
+      <img src="img/logotype-mobile.svg" alt="Logo" />
+    </a>
+    <nav class="main-nav">
+      <button class="main-nav__toggle" type="button">
+        burger
+      </button>
+      <div class="main-nav__center">
+        <ul>
+          <li class="main-nav__item">
+            <a href="/main">
+              ГЛАВНАЯ
+            </a>
+          </li>
+          <li class="main-nav__item">
+            <a href="/photo">
+              ФОТОГРАФИИ
+            </a>
+          </li>
+          <li class="main-nav__item">
+            <a href="/contest">
+              КОНКУРС
+            </a>
+          </li>
+          <li class="main-nav__item">
+            <a href="/https://htmlacademy.ru">
+              HTML ACADEMY
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <header class="main-info">
+    <section class="main-info__slogan">
+      <h1>
+        Взгляните на жизнь иначе
+      </h1>
+    </section>
+    <section class="app-download">
+      <button class="app-download__button">
+        Скачать приложение
+      </button>
+      <div class="app-download__description">
+        <img class="app-download__logo" alt="logo-apple" src="img/apple-logo.svg" />
+        <img class="app-download__logo" alt="logo-android" src="img/android-logo.svg" />
+        <img class="app-download__logo" alt="logo-microsoft" src="img/microsoft-logo.svg" />
+      </div>
+      <h2 class="app-download__info">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</h2>
+    </section>
+    <section class="slogan">
+      <h2 class="slogan__item">
+        Устали от серости мегаполиса?
+      </h2>
+      <h2 class="slogan__item">
+        Нам есть, что вам <br /> предложить!
+      </h2>
+    </section>
+  </header>
+  <section class="app-description">
+    <ul class="app-description__list">
+      <li class="app-description__item">
+        <h3 class="app-description__title">
+          Поднимает настроение
+        </h3>
+        <span class="app-description__text">
+          Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!
+        </span>
+      </li>
+      <li class="app-description__item">
+        <h3 class="app-description__title">
+          Меняет мир вокруг
+        </h3>
+        <span class="app-description__text">
+          Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект
+        </span>
+      </li>
+      <li class="app-description__item">
+        <h3 class="app-description__title">
+          Заводит новых друзей
+        </h3>
+        <span class="app-description__text">
+          Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых
+        </span>
+      </li>
+    </ul>
+    <div class="app-description__img">
+      <img src="img/telephone.svg" alt="telephone-img" />
+    </div>
+  </section>
+  <section class="slider">
+    <ul class="slider__list">
+      <li class="slider__item">
+        <h3 class="slider__title">
+          Николай Петров
+        </h3>
+        <span class="slider__text">
+          «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я
+          познакомился со своей будущей женой в комментариях к выложенной фотографии!»
+        </span>
+      </li>
+      <li class="slider__item">
+        <h3 class="slider__title">
+          Николай Петров
+        </h3>
+        <span class="slider__text">
+          «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я
+          познакомился со своей будущей женой в комментариях к выложенной фотографии!»
+        </span>
+      </li>
+      <li class="slider__item">
+        <h3 class="slider__title">
+          Николай Петров
+        </h3>
+        <span class="slider__text">
+          «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я
+          познакомился со своей будущей женой в комментариях к выложенной фотографии!»
+        </span>
+      </li>
+    </ul>
+    <div class="select__button-field">
+      <button class="select__button select__button--activ" type="button">1</button>
+      <button class="select__button" type="button">2</button>
+      <button class="select__button" type="button">3</button>
+    </div>
+  </section>
+  <section class="rate">
+    <table class="rate__table">
+      <tr class="rate__line rate__activ">
+        <td class="rate__item">1</td>
+        <td class="rate__item">1</td>
+        <td class="rate__item">1</td>
+      </tr>
+      <tr class="rate__line">
+        <td class="rate__item">1</td>
+        <td class="rate__item">1</td>
+        <td class="rate__item">1</td>
+        <td class="rate__item">1</td>
+      </tr>
+      <tr class="rate__line">
+        <td class="rate__item">1</td>
+        <td class="rate__item">1</td>
+        <td class="rate__item">1</td>
+        <td class="rate__item">1</td>
+      </tr>
+      <tr class="rate__line">
+        <td class="rate__item">1</td>
+        <td class="rate__item">1</td>
+        <td class="rate__item">1</td>
+        <td class="rate__item">1</td>
+      </tr>
+    </table>
+    <div class="select__button-field">
+      <button class="select__button select__button--activ" type="button">1</button>
+      <button class="select__button" type="button">2</button>
+      <button class="select__button" type="button">3</button>
+    </div>
+  </section>
+  <section>
+    <div class="slogan">
+      <p class="slogan__item">Остались вопросы? <br /> Свяжитесь с нами!</p>
+    </div>
+    <ul class="contacts">
+      <li class="contacts__item">
+        <h3 class="contacts__title">
+          Звоните:
+        </h3>
+        <span class="contacts__text">
+          +7 (812) 555-66-66
+        </span>
+      </li>
+      <li class="contacts__item">
+        <h3 class="contacts__title">
+          Пишите
+        </h3>
+        <span class="contacts__text">
+          mail@htmlacademy.ru
+        </span>
+      </li>
+      <li class="contacts__item">
+        <h3 class="contacts__title">
+          Приезжайте в гости:
+        </h3>
+        <span class="contacts__text">
+          ул. Большая <br />
+          Конюшенная, 19/8
+        </span>
+      </li>
+    </ul>
+  </section>
+  <footer class="footer">
+    <img alt="footer-logo" src="img/logotype-blue-tablet.svg" />
+    <section class="footer__button-field">
+      <button class="footer__button">1</button>
+      <button class="footer__button">1</button>
+      <button class="footer__button">1</button>
+    </section>
+    <div class="author">
+      <span class="author__title">Разработано</span>
+      <img alt="htmlacademy-logo" src="img/htmlacademy.svg" class="author__logo" />
+    </div>
+  </footer>
+</body>
 </html>
