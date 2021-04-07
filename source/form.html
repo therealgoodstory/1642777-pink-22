@@ -16,17 +16,17 @@
       <div class="main-nav__center">
         <ul>
           <li class="main-nav__item">
-            <a>
+            <a href="/index.html">
               Главная
             </a>
           </li>
           <li class="main-nav__item">
-            <a href="/photo.html">
+            <a href="/catalog.html">
               Фотографии
             </a>
           </li>
           <li class="main-nav__item">
-            <a href="/contest.html">
+            <a>
               Конкурс
             </a>
           </li>
@@ -44,9 +44,12 @@
       <h1 class="info__title">
         Конкурс на самое безбашенное путешествие с Пинк
       </h1>
+      <span class="info__description">
+        Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту!
+      </span>
     </section>
     <form class="form" action="https://echo.htmlacademy.ru">
-      <section class="user-data">
+      <fieldset class="user-data">
         <label class="user-data__label">
           <input type="text" class="user-data__input" placeholder="Укажите фамилию *" /> Фамилия:
         </label>
@@ -56,77 +59,86 @@
         <label class="user-data__label">
           <input type="text" class="user-data__input" placeholder="Ну и отчество тоже" /> Отчество:
         </label>
-      </section>
-      <h3 class="form__title">Ваши безбашенные достижения в путешествии</h3>
-      <section class="user-progress">
+      </fieldset>
+      <fieldset class="user-progress">
+        <h3 class="form__title">Ваши безбашенные достижения в путешествии</h3>
         <ul class="user-progress__list">
           <li class="user-progress__item">
             <label class="user-progress__label">
-              <input type="checkbox" class="user-progress__input" /> Сделал селфи с акулой
+              <span class="user-progress__title">Сделал селфи с акулой</span>
+              <input type="checkbox" class="user-progress__checkbox" />
             </label>
           </li>
           <li class="user-progress__item">
             <label class="user-progress__label">
-              <input type="checkbox" class="user-progress__input" /> Обгорел на пляже
+              <span class="user-progress__title">Обгорел на пляже</span>
+              <input type="checkbox" class="user-progress__checkbox" />
             </label>
           </li>
           <li class="user-progress__item">
             <label class="user-progress__label">
-              <input type="checkbox" class="user-progress__input" /> Видел Чака Норриса
+              <span class="user-progress__title">Видел Чака Норриса</span>
+              <input type="checkbox" class="user-progress__checkbox" />
             </label>
           </li>
           <li class="user-progress__item">
             <label class="user-progress__label">
-              <input type="checkbox" class="user-progress__input" /> Накупил сувениров
+              <span class="user-progress__title">Накупил сувениров</span>
+              <input type="checkbox" class="user-progress__checkbox" />
             </label>
           </li>
           <li class="user-progress__item">
             <label class="user-progress__label">
-              <input type="checkbox" class="user-progress__input" /> Удержал башню
+              <span class="user-progress__title">Удержал башню</span>
+              <input type="checkbox" class="user-progress__checkbox" />
             </label>
           </li>
           <li class="user-progress__item">
             <label class="user-progress__label">
-              <input type="checkbox" class="user-progress__input" /> Разгромил отель
+              <span class="user-progress__title">Разгромил отель</span>
+              <input type="checkbox" class="user-progress__checkbox" />
             </label>
           </li>
         </ul>
-      </section>
-      <section class="user-data">
+      </fieldset>
+      <fieldset class="user-data">
         <label class="user-data__label">
           <input type="tel" class="user-data__input" placeholder="Номер, пожалуйста" /> Номер телефона
         </label>
         <label class="user-data__label">
           <input type="email" class="user-data__input" placeholder="Введите почту *" /> Адрес почты
         </label>
-      </section>
-      <h3 class="form__title">С каким приложением путешествовали?</h3>
-      <section class="user-progress">
+      </fieldset>
+      <fieldset class="user-progress">
+        <h3 class="form__title">С каким приложением путешествовали?</h3>
         <ul class="user-progress__list">
           <li class="user-progress__item">
             <label class="user-progress__label">
-              <input type="radio" class="user-progress__input" /> Pink для iOS
+              <span class="user-progress__title">Pink для iOS</span>
+              <input type="radio" class="user-progress__radio" />
             </label>
           </li>
           <li class="user-progress__item">
             <label class="user-progress__label">
-              <input type="radio" class="user-progress__input" /> Pink на Android
+              <span class="user-progress__title">Pink на Android</span>
+              <input type="radio" class="user-progress__radio" />
             </label>
           </li>
           <li class="user-progress__item">
             <label class="user-progress__label">
-              <input type="radio" class="user-progress__input" /> Windows Phone
+              <span class="user-progress__title">Windows Phone</span>
+              <input type="radio" class="user-progress__radio" />
             </label>
           </li>
         </ul>
-      </section>
-      <h3 class="form__title">С каким приложением путешествовали?</h3>
+      </fieldset>
+      <h3 class="form__title">Опишите свои эмоции</h3>
       <textarea class="form__textarea" placeholder="Можно прям в красках, не стесняясь в выражениях">
       </textarea>
-      <section class="submit">
+      <fieldset class="submit">
         <button class="submit__button" type="submit">Отправить форму</button>
         <p class="submit__text">* — обязательные поля</p>
-      </section>
+      </fieldset>
     </form>
   </main>
   <footer class="footer">
@@ -134,17 +146,17 @@
     <ul class="footer__socials-field">
       <li>
         <a href="https://www.facebook.com/" target="_blank" class="footer__socials">
-          <button>1</button>
+          <img alt="facebook-logo" src="img/facebook.svg" class="footer__logo" />
         </a>
       </li>
       <li>
         <a href="https://twitter.com/" target="_blank" class="footer__socials">
-          <button>1</button>
+          <img alt="twitter-logo" src="img/twitter.svg" class="footer__logo" />
         </a>
       </li>
       <li>
         <a href="https://www.youtube.com/" target="_blank" class="footer__socials">
-          <button>1</button>
+          <img alt="youtube-logo" src="img/youtube.svg" class="footer__logo" />
         </a>
       </li>
     </ul>
@@ -167,6 +179,8 @@
         Ок
       </button>
     </div>
+  </section>
+  <section class="message">
     <div class="message__field">
       <h1 class="message__title">
         Ваша заявка отправлена
