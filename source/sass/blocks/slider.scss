@@ -1,0 +1,24 @@
+.slider__list {
+  margin: 0%;
+  padding: 0%;
+  list-style-type: none;
+  padding-left: 10px;
+  padding-right: 15px;
+}
+
+.slider__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider__title {
+  font-size: 18px;
+}
+
+.slider__text {
+  text-align: center;
+  font-size: 14px;
+  line-height: 30px;
+}

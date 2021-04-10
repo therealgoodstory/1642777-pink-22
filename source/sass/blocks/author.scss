@@ -1,0 +1,12 @@
+.author {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.author__logo {
+  width: 27px;
+  color: $color-accent;
+  padding-left: 10px;
+}

@@ -1,0 +1,40 @@
+.app-download {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 38px;
+}
+
+.app-download__button {
+  width: 90vw;
+  height: 55px;
+  border-radius: 29px;
+  background-color: $color-main;
+  border: 3px solid white;
+  color: white;
+  font-size: 18px;
+  outline: none;
+}
+
+.app-download__description {
+  padding: 0%;
+  margin-top: 38px;
+  list-style-type: none;
+  padding-left: 58px;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-download__logo {
+  width: auto;
+}
+
+.app-download__info {
+  width: 90vw;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+}

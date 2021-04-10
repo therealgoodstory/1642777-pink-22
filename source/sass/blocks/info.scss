@@ -1,0 +1,12 @@
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $color-main;
+}
+
+.info__title {
+  color: white;
+  text-align: center;
+  width: 70vw;
+}

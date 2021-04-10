@@ -1,0 +1,39 @@
+.app-description {
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: $background;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app-description__list {
+  list-style-type: none;
+  padding: 0%;
+}
+
+.app-description__item {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app-description__title {
+  font-size: 18px;
+}
+
+.app-description__text {
+  text-align: center;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.app-description__img {
+  list-style-type: none;
+  margin: 0%;
+  padding: 0%;
+  height: 245px;
+  overflow: hidden;
+}
