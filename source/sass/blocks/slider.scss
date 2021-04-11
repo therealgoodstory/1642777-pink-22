@@ -2,8 +2,8 @@
   margin: 0%;
   padding: 0%;
   list-style-type: none;
-  padding-left: 10px;
-  padding-right: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .slider__item {
@@ -15,10 +15,14 @@
 
 .slider__title {
   font-size: 18px;
+  font-family: "Open-Sans-Bold";
+  line-height: 24px;
 }
 
 .slider__text {
   text-align: center;
   font-size: 14px;
   line-height: 30px;
+  font-family: "Open-Sans";
+  color: #283645;
 }

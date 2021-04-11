@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html class="page" lang="ru">
+
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui, user-scalable=no">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui, user-scalable=no">
   <meta charset="utf-8">
   <title>HTML Academy: Пинк</title>
   <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body class="page__body">
   <header class="page-header">
     <a class="page-header__logo" href="/">
@@ -18,22 +21,22 @@
   <nav class="main-nav main-nav--hiden">
     <ul class="main-nav__list">
       <li class="main-nav__item">
-        <a class="main-nav__item--style">
+        <a class="main-nav__link">
           Главная
         </a>
       </li>
       <li class="main-nav__item">
-        <a class="main-nav__item--style" href="/catalog.html">
+        <a class="main-nav__link" href="/catalog.html">
           Фотографии
         </a>
       </li>
       <li class="main-nav__item">
-        <a class="main-nav__item--style" href="/form.html">
+        <a class="main-nav__link" href="/form.html">
           Конкурс
         </a>
       </li>
       <li class="main-nav__item">
-        <a class="main-nav__item--style" href="/https://htmlacademy.ru" target="_blank">
+        <a class="main-nav__link" href="/https://htmlacademy.ru" target="_blank">
           Html Academy
         </a>
       </li>
@@ -41,9 +44,12 @@
   </nav>
   <main class="main-index">
     <section class="info">
-      <h1 class="info__title">
-        Взгляните на жизнь иначе!
-      </h1>
+      <div class="info__background">
+        <h1 class="info__title">
+          Взгляните на жизнь иначе!
+        </h1>
+        <img alt="telephone=head" src="./img/telephone-head.png" class="info__img" />
+      </div>
       <div class="app-download">
         <button class="app-download__button">
           Скачать приложение
@@ -67,7 +73,7 @@
         </ul>
         <p class="app-download__info">Доступно для iPhone, iPad, Android, <br /> Windows Phone, OS X, Windows 8</p>
       </div>
-      <div class="slogan">
+      <div class="slogan slogan--padding">
         <p class="slogan__item">
           Устали от серости мегаполиса?
         </p>
@@ -149,7 +155,7 @@
       <table class="rate__table">
         <tr class="rate__line rate__active">
           <th></th>
-          <th class="rate__item-title">
+          <th class="rate__item-title rate__item-title--hidden">
             <p class="rate__tarif">База</p>
             <span class="rate__price">123</span>
           </th>
@@ -157,7 +163,7 @@
             <p class="rate__tarif">Стандарт</p>
             <span class="rate__price">123</span>
           </th>
-          <th class="rate__item-title">
+          <th class="rate__item-title rate__item-title--hidden">
             <p class="rate__tarif">Анлим</p>
             <span class="rate__price">123</span>
           </th>
@@ -166,25 +172,25 @@
           <td class="rate__item">
             <p class="rate__title">Розовый фильтр</p>
           </td>
-          <td class="rate__item">1</td>
-          <td class="rate__item">1</td>
-          <td class="rate__item">1</td>
+          <td class="rate__item rate__item--hidden">1</td>
+          <td class="rate__item rate__item--hidden">1</td>
+          <td class="rate__item rate__item--hidden">1</td>
         </tr>
         <tr class="rate__line">
           <td class="rate__item">
             <p class="rate__title">Смайлики</p>
           </td>
-          <td class="rate__item">1</td>
-          <td class="rate__item">1</td>
-          <td class="rate__item">1</td>
+          <td class="rate__item rate__item--hidden">1</td>
+          <td class="rate__item rate__item--hidden">1</td>
+          <td class="rate__item rate__item--hidden">1</td>
         </tr>
         <tr class="rate__line">
           <td class="rate__item">
             <p class="rate__title">Комментарии</p>
           </td>
-          <td class="rate__item">1</td>
-          <td class="rate__item">1</td>
-          <td class="rate__item">1</td>
+          <td class="rate__item rate__item--hidden">1</td>
+          <td class="rate__item rate__item--hidden">1</td>
+          <td class="rate__item rate__item--hidden">1</td>
         </tr>
       </table>
       <div class="button-dots">
@@ -234,17 +240,17 @@
     <ul class="footer__socials-field">
       <li class="footer__socials">
         <a href="https://www.facebook.com/" target="_blank">
-          <img alt="facebook-logo" src="img/facebook.svg" class="footer__logo" />
+          <img alt="facebook-logo" src="img/facebook.svg" />
         </a>
       </li>
       <li class="footer__socials">
         <a href="https://twitter.com/" target="_blank">
-          <img alt="twitter-logo" src="img/twitter.svg" class="footer__logo" />
+          <img alt="twitter-logo" src="img/twitter.svg" />
         </a>
       </li>
       <li class="footer__socials">
         <a href="https://www.youtube.com/" target="_blank">
-          <img alt="youtube-logo" src="img/youtube.svg" class="footer__logo" />
+          <img alt="youtube-logo" src="img/youtube.svg" />
         </a>
       </li>
     </ul>
@@ -256,4 +262,5 @@
     </div>
   </footer>
 </body>
+
 </html>

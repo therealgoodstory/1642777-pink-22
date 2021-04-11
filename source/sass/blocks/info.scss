@@ -5,8 +5,29 @@
   background-color: $color-main;
 }
 
+.info__background {
+  background-image: url('../img/back-mobile.png');
+  height: 400px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .info__title {
   color: white;
   text-align: center;
-  width: 70vw;
+  margin: 0;
+  padding-top: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: "Open-Sans-Light";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 120%;
+}
+
+.info__img {
+  height: 286px;
 }

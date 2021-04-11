@@ -1,6 +1,6 @@
 .app-description {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
   background-color: $background;
   display: flex;
   flex-direction: column;
@@ -22,12 +22,16 @@
 
 .app-description__title {
   font-size: 18px;
+  font-family: "Open-Sans-Bold";
+  line-height: 24px;
 }
 
 .app-description__text {
   text-align: center;
   font-size: 14px;
+  font-family: "Open-Sans";
   line-height: 24px;
+  color: #283645;
 }
 
 .app-description__img {

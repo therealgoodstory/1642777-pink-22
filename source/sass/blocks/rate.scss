@@ -9,6 +9,10 @@
 .rate__item-title {
   height: 94px;
   background-color: $color-main;
+  width: 90vw;
+  &--hidden {
+    visibility: hidden;
+  }
 }
 
 .rate__item {
@@ -18,6 +22,10 @@
   padding-left: 20px;
   font-size: 14px;
   line-height: 30px;
+
+  &--hidden {
+    display: none;
+  }
 }
 
 .rate__tarif {
