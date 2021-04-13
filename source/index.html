@@ -1,49 +1,55 @@
 <!DOCTYPE html>
 <html class="page" lang="ru">
+
 <head>
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui, user-scalable=no">
   <meta charset="utf-8">
   <title>HTML Academy: Пинк</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body class="page__body">
   <header class="page-header">
     <a class="page-header__logo" href="/">
-      <img src="img/logotype-mobile.svg" alt="Logo" />
+      <img src="img/logotype-mobile.svg" alt="Logo" class="page-header__logo--size" />
     </a>
-    <nav class="main-nav">
-      <button class="main-nav__toggle" type="button">
-        burger
-      </button>
-      <div class="main-nav__center">
-        <ul>
-          <li class="main-nav__item">
-            <a>
-              Главная
-            </a>
-          </li>
-          <li class="main-nav__item">
-            <a href="/catalog.html">
-              Фотографии
-            </a>
-          </li>
-          <li class="main-nav__item">
-            <a href="/form.html">
-              Конкурс
-            </a>
-          </li>
-          <li class="main-nav__item">
-            <a href="/https://htmlacademy.ru" target="_blank">
-              Html Academy
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <button class="page__toggle" type="button">
+      x
+    </button>
   </header>
+  <nav class="main-nav main-nav--hiden">
+    <ul class="main-nav__list">
+      <li class="main-nav__item">
+        <a class="main-nav__link">
+          Главная
+        </a>
+      </li>
+      <li class="main-nav__item">
+        <a class="main-nav__link" href="/catalog.html">
+          Фотографии
+        </a>
+      </li>
+      <li class="main-nav__item">
+        <a class="main-nav__link" href="/form.html">
+          Конкурс
+        </a>
+      </li>
+      <li class="main-nav__item">
+        <a class="main-nav__link" href="/https://htmlacademy.ru" target="_blank">
+          Html Academy
+        </a>
+      </li>
+    </ul>
+  </nav>
   <main class="main-index">
     <section class="info">
-      <h1 class="info__title">
-        Взгляните на жизнь иначе
-      </h1>
+      <div class="info__background">
+        <h1 class="info__title">
+          Взгляните на жизнь иначе!
+        </h1>
+        <img alt="telephone=head" src="./img/telephone-head.png" class="info__img" />
+      </div>
       <div class="app-download">
         <button class="app-download__button">
           Скачать приложение
@@ -65,14 +71,14 @@
             </a>
           </li>
         </ul>
-        <p class="app-download__info">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+        <p class="app-download__info">Доступно для iPhone, iPad, Android, <br /> Windows Phone, OS X, Windows 8</p>
       </div>
-      <div class="slogan">
+      <div class="slogan slogan--padding">
         <p class="slogan__item">
           Устали от серости мегаполиса?
         </p>
         <p class="slogan__item">
-          Нам есть, что вам <br /> предложить!
+          Нам есть, что вам предложить!
         </p>
       </div>
     </section>
@@ -139,24 +145,25 @@
           </span>
         </li>
       </ul>
-      <div class="button-dots button-slider">
-        <button class="button-dots__item button-dots__item--active" type="button">1</button>
-        <button class="button-dots__item" type="button">2</button>
-        <button class="button-dots__item" type="button">3</button>
+      <div class="button-dots">
+        <button class="button-dots__item button-dots__item--active" type="button"></button>
+        <button class="button-dots__item" type="button"></button>
+        <button class="button-dots__item" type="button"></button>
       </div>
     </section>
     <section class="rate">
       <table class="rate__table">
         <tr class="rate__line rate__active">
-          <th class="rate__item">
+          <th></th>
+          <th class="rate__item-title rate__item-title--hidden">
             <p class="rate__tarif">База</p>
             <span class="rate__price">123</span>
           </th>
-          <th class="rate__item">
+          <th class="rate__item-title">
             <p class="rate__tarif">Стандарт</p>
             <span class="rate__price">123</span>
           </th>
-          <th class="rate__item">
+          <th class="rate__item-title rate__item-title--hidden">
             <p class="rate__tarif">Анлим</p>
             <span class="rate__price">123</span>
           </th>
@@ -165,35 +172,37 @@
           <td class="rate__item">
             <p class="rate__title">Розовый фильтр</p>
           </td>
-          <td class="rate__item">1</td>
-          <td class="rate__item">1</td>
-          <td class="rate__item">1</td>
+          <td class="rate__item rate__item--hidden">1</td>
+          <td class="rate__item rate__item--hidden">1</td>
+          <td class="rate__item rate__item--hidden">1</td>
         </tr>
         <tr class="rate__line">
           <td class="rate__item">
             <p class="rate__title">Смайлики</p>
           </td>
-          <td class="rate__item">1</td>
-          <td class="rate__item">1</td>
-          <td class="rate__item">1</td>
+          <td class="rate__item rate__item--hidden">1</td>
+          <td class="rate__item rate__item--hidden">1</td>
+          <td class="rate__item rate__item--hidden">1</td>
         </tr>
         <tr class="rate__line">
           <td class="rate__item">
             <p class="rate__title">Комментарии</p>
           </td>
-          <td class="rate__item">1</td>
-          <td class="rate__item">1</td>
-          <td class="rate__item">1</td>
+          <td class="rate__item rate__item--hidden">1</td>
+          <td class="rate__item rate__item--hidden">1</td>
+          <td class="rate__item rate__item--hidden">1</td>
         </tr>
       </table>
       <div class="button-dots">
-        <button class="button-dots__item button-dots__item--active" type="button">1</button>
-        <button class="button-dots__item" type="button">2</button>
-        <button class="button-dots__item" type="button">3</button>
+        <button class="button-dots__item button-dots__item--active" type="button"></button>
+        <button class="button-dots__item" type="button"></button>
+        <button class="button-dots__item" type="button"></button>
       </div>
     </section>
     <section>
-      <p class="slogan">Остались вопросы? <br /> Свяжитесь с нами!</p>
+      <div class="slogan">
+        <p class="slogan__item">Остались вопросы? <br /> Свяжитесь с нами!</p>
+      </div>
       <ul class="contacts">
         <li class="contacts__item">
           <h3 class="contacts__title">
@@ -205,7 +214,7 @@
         </li>
         <li class="contacts__item">
           <h3 class="contacts__title">
-            Пишите
+            Пишите:
           </h3>
           <a class="contacts__text" href="mailto:https://htmlacademy.ru/study">
             mail@htmlacademy.ru
@@ -216,7 +225,7 @@
             Приезжайте в гости:
           </h3>
           <span class="contacts__text">
-            ул. Большая <br />
+            ул. Большая
             Конюшенная, 19/8
           </span>
         </li>
@@ -227,30 +236,31 @@
     </section>
   </main>
   <footer class="footer">
-    <img alt="footer-logo" src="img/logotype-blue-tablet.svg" />
+    <img alt="footer-logo" src="img/logotype-blue-tablet.svg" class="footer__img" />
     <ul class="footer__socials-field">
-      <li>
-        <a href="https://www.facebook.com/" target="_blank" class="footer__socials">
-          <img alt="facebook-logo" src="img/facebook.svg" class="footer__logo" />
+      <li class="footer__socials">
+        <a href="https://www.facebook.com/" target="_blank">
+          <img alt="facebook-logo" src="img/facebook.svg" />
         </a>
       </li>
-      <li>
-        <a href="https://twitter.com/" target="_blank" class="footer__socials">
-          <img alt="twitter-logo" src="img/twitter.svg" class="footer__logo" />
+      <li class="footer__socials">
+        <a href="https://twitter.com/" target="_blank">
+          <img alt="twitter-logo" src="img/twitter.svg" />
         </a>
       </li>
-      <li>
-        <a href="https://www.youtube.com/" target="_blank" class="footer__socials">
-          <img alt="youtube-logo" src="img/youtube.svg" class="footer__logo" />
+      <li class="footer__socials">
+        <a href="https://www.youtube.com/" target="_blank">
+          <img alt="youtube-logo" src="img/youtube.svg" />
         </a>
       </li>
     </ul>
     <div class="author">
       <span class="author__title">Разработано</span>
-      <a href="https://htmlacademy.ru/" target="_blank" class="author__logo">
-        <img alt="htmlacademy-logo" src="img/htmlacademy.svg" />
+      <a href="https://htmlacademy.ru/" target="_blank">
+        <img alt="htmlacademy-logo" src="img/htmlacademy.svg" class="author__logo" />
       </a>
     </div>
   </footer>
 </body>
+
 </html>

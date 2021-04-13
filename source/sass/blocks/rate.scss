@@ -1,0 +1,40 @@
+.rate {
+  background-color: $background;
+}
+
+.rate__table {
+  padding: 15px;
+}
+
+.rate__item-title {
+  height: 94px;
+  background-color: $color-main;
+  width: 90vw;
+
+  &--hidden {
+    visibility: hidden;
+  }
+}
+
+.rate__item {
+  height: 59px;
+  background-color: white;
+  width: 90vw;
+  padding-left: 20px;
+  font-size: 14px;
+  line-height: 30px;
+
+  &--hidden {
+    display: none;
+  }
+}
+
+.rate__tarif {
+  color: white;
+  font-size: 18px;
+}
+
+.rate__price {
+  color: white;
+  font-size: 18px;
+}
