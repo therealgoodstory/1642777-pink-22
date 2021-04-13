@@ -3,13 +3,18 @@
 }
 
 .rate__table {
-  padding: 15px;
+  width: 100%;
+  border-spacing: 0;
 }
 
+.rate__line {
+  margin: 0;
+  padding: 0;
+}
 .rate__item-title {
   height: 94px;
   background-color: $color-main;
-  width: 90vw;
+  width: 100%;
 
   &--hidden {
     visibility: hidden;
