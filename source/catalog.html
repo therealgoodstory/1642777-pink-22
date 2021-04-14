@@ -1,79 +1,86 @@
 <!DOCTYPE html>
 <html class="page" lang="ru">
+
 <head>
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui, user-scalable=no">
   <meta charset="utf-8">
   <title>HTML Academy: Пинк</title>
   <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body class="page__body">
   <header class="page-header">
     <a class="page-header__logo" href="/">
-      <img src="img/logotype-mobile.svg" alt="Logo" />
+      <img src="img/logotype-mobile.svg" alt="Logo" class="page-header__logo--size" />
     </a>
-    <nav class="main-nav">
-      <button class="main-nav__toggle" type="button">
-        burger
-      </button>
-      <div class="main-nav__center">
-        <ul>
-          <li class="main-nav__item">
-            <a href="/index.html">
-              Главная
-            </a>
-          </li>
-          <li class="main-nav__item">
-            <a>
-              Фотографии
-            </a>
-          </li>
-          <li class="main-nav__item">
-            <a href="/form.html">
-              Конкурс
-            </a>
-          </li>
-          <li class="main-nav__item">
-            <a href="/https://htmlacademy.ru" target="_blank">
-              Html Academy
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <button class="page__toggle" type="button">
+      x
+    </button>
+  </header>
+  <nav class="main-nav main-nav--hiden">
+    <ul class="main-nav__list">
+      <li class="main-nav__item">
+        <a class="main-nav__link" href="/index.html">
+          Главная
+        </a>
+      </li>
+      <li class="main-nav__item">
+        <a class="main-nav__link">
+          Фотографии
+        </a>
+      </li>
+      <li class="main-nav__item">
+        <a class="main-nav__link" href="./form.html">
+          Конкурс
+        </a>
+      </li>
+      <li class="main-nav__item">
+        <a class="main-nav__link" href="/https://htmlacademy.ru" target="_blank">
+          Html Academy
+        </a>
+      </li>
+    </ul>
+  </nav>
   </header>
   <main class="main-catalog">
     <section class="info">
-      <h1 class="info__title">
-        Фотографии пользователей
-      </h1>
+      <div class="info__background">
+        <h1 class="info__title">
+          Фотографии пользователей
+        </h1>
+      </div>
       <span class="info__description">
         Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?
       </span>
     </section>
     <section class="gallery">
-      <div class="gallery__panorama gallery__panorama--label">
-        <img alt="panorama" class="gallery__img" />
-        <div class="gallery__message">
-          <span class="gallery__name">
-            Анна
-          </span>
-          <span class="gallery__time">
-            (5 минут назад)
-          </span>
-          <span class="gallery__text">
-            Прыгать или нет? Напишите в
-            комментарии свой совет и
-            смотрите прямую трансляцию в
-            перископе, задавайте свои вопросы!
-          </span>
-          <img alt="heart-logo" src="img/heart.svg" class="gallery__heart-logo" />
-          <span class="gallery__like">
-            Нравится: 215
-          </span>
+      <div class="gallery__panorama">
+        <img alt="panorama" class="gallery__img" src="img/panorama.png" />
+        <div class="gallery__posts">
+          <div class="gallery__message">
+            <span class="gallery__name">
+              Анна
+            </span>
+            <span class="gallery__time">
+              (5 минут назад)
+            </span>
+            <p class="gallery__text">
+              Прыгать или нет? Напишите в
+              комментарии свой совет и
+              смотрите прямую трансляцию в
+              перископе, задавайте свои вопросы!
+            </p>
+            <div class="gallery__like-field">
+              <img alt="heart-logo" src="img/heart.svg" class="gallery__heart-logo" />
+              <span class="gallery__like">
+                Нравится: 215
+              </span>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="gallery__posts">
-        <div class="gallery__panorama">
-          <img alt="img" class="gallery__photo" />
+        <div class="gallery__posts">
+          <img alt="img" src="./img/photo-1-mobile.png" class="gallery__photo" />
           <div class="gallery__message">
             <span class="gallery__name">
               Левон
@@ -81,19 +88,19 @@
             <span class="gallery__time">
               (5 часов назад)
             </span>
-            <span class="gallery__text">
+            <p class="gallery__text">
               Вчера он на луну летал, сегодня в руки к нам попал.
-            </span>
-            <img alt="heart-logo" src="img/heart.svg" class="gallery__heart-logo" />
-            <span class="gallery__like">
-              Нравится: 356
-            </span>
+            </p>
+            <div class="gallery__like-field">
+              <img alt="heart-logo" src="img/heart.svg" class="gallery__heart-logo" />
+              <span class="gallery__like">
+                Нравится: 356
+              </span>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="gallery__posts">
-        <div class="gallery__panorama">
-          <img alt="img" class="gallery__photo" />
+        <div class="gallery__posts">
+          <img alt="img" src="./img/photo-2-mobile.png" class="gallery__photo" />
           <div class="gallery__message">
             <span class="gallery__name">
               Антон
@@ -101,19 +108,19 @@
             <span class="gallery__time">
               (12 часов назад)
             </span>
-            <span class="gallery__text">
+            <p class="gallery__text">
               Соседи будут рады!
-            </span>
-            <img alt="heart-logo" src="img/heart.svg" class="gallery__heart-logo" />
-            <span class="gallery__like">
-              Нравится: 666
-            </span>
+            </p>
+            <div class="gallery__like-field">
+              <img alt="heart-logo" src="img/heart.svg" class="gallery__heart-logo" />
+              <span class="gallery__like">
+                Нравится: 666
+              </span>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="gallery__posts">
-        <div class="gallery__panorama">
-          <img alt="img" class="gallery__photo" />
+        <div class="gallery__posts">
+          <img alt="img" src="./img/photo-3-tablet.png" class="gallery__photo" />
           <div class="gallery__message">
             <span class="gallery__name">
               Борис
@@ -121,19 +128,19 @@
             <span class="gallery__time">
               (20 часов назад)
             </span>
-            <span class="gallery__text">
+            <p class="gallery__text">
               Здесь могла быть ваша цитата о высоком и вечном.
-            </span>
-            <img alt="heart-logo" src="img/heart.svg" class="gallery__heart-logo" />
-            <span class="gallery__like">
-              Нравится: 215
-            </span>
+            </p>
+            <div class="gallery__like-field">
+              <img alt="heart-logo" src="img/heart.svg" class="gallery__heart-logo" />
+              <span class="gallery__like">
+                Нравится: 215
+              </span>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="gallery__posts">
-        <div class="gallery__panorama">
-          <img alt="img" class="gallery__photo" />
+        <div class="gallery__posts">
+          <img alt="img" src="./img/photo-4-tablet.png" class="gallery__photo" />
           <div class="gallery__message">
             <span class="gallery__name">
               Сергей
@@ -141,19 +148,19 @@
             <span class="gallery__time">
               (25 часов назад)
             </span>
-            <span class="gallery__text">
+            <p class="gallery__text">
               Самая кубанская в мире!
-            </span>
-            <img alt="heart-logo" src="img/heart.svg" class="gallery__heart-logo" />
-            <span class="gallery__like">
-              Нравится: 4
-            </span>
+            </p>
+            <div class="gallery__like-field">
+              <img alt="heart-logo" src="img/heart.svg" class="gallery__heart-logo" />
+              <span class="gallery__like">
+                Нравится: 4
+              </span>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="gallery__posts">
-        <div class="gallery__panorama">
-          <img alt="img" class="gallery__photo" />
+        <div class="gallery__posts">
+          <img alt="img" src="./img/photo-5-tablet.png" class="gallery__photo" />
           <div class="gallery__message">
             <span class="gallery__name">
               Максим
@@ -161,19 +168,19 @@
             <span class="gallery__time">
               (40 часов назад)
             </span>
-            <span class="gallery__text">
+            <p class="gallery__text">
               Где снег-то?
-            </span>
-            <img alt="heart-logo" src="img/heart.svg" class="gallery__heart-logo" />
-            <span class="gallery__like">
-              Нравится: 150
-            </span>
+            </p>
+            <div class="gallery__like-field">
+              <img alt="heart-logo" src="img/heart.svg" class="gallery__heart-logo" />
+              <span class="gallery__like">
+                Нравится: 150
+              </span>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="gallery__posts">
-        <div class="gallery__panorama">
-          <img alt="img" class="gallery__photo" />
+        <div class="gallery__posts">
+          <img alt="img" src="./img/photo-6-tablet.png" class="gallery__photo" />
           <div class="gallery__message">
             <span class="gallery__name">
               Надежда
@@ -181,47 +188,45 @@
             <span class="gallery__time">
               (45 часов назад)
             </span>
-            <span class="gallery__text">
+            <p class="gallery__text">
               Всем GM и взаимные лайки!
-            </span>
-            <img alt="heart-logo" src="img/heart.svg" class="gallery__heart-logo" />
-            <span class="gallery__like">
-              Нравится: 2560
-            </span>
+            </p>
+            <div class="gallery__like-field">
+              <img alt="heart-logo" src="img/heart.svg" class="gallery__heart-logo" />
+              <span class="gallery__like">
+                Нравится: 2560
+              </span>
+            </div>
           </div>
         </div>
-      </div>
     </section>
     <section class="info">
       <span class="info__description">
-        Затмите их всех!
-      </span>
-      <span class="info__description">
-        Выкладывайте все, что накопилось в телефоне!
+        Затмите их всех!<br />Выкладывайте все, что накопилось в телефоне!
       </span>
       <section class="mask">
-        <img alt="mask__image" />
+        <img alt="mask__image" src="./img/photo-7-tablet.png" class="mask__img" />
         <div class="mask__edit">
-          <button type="button" class="masl__button">
-            <img alt="logo" src="./img/crop.svg" class="mask__mask-edit-button mask__mask-edit-button--active" >
+          <button type="button" class="mask__button">
+            <img alt="logo" src="./img/crop.svg" class="mask__mask-edit-button mask__mask-edit-button--active">
           </button>
-          <button type="button" class="masl__button">
-            <img alt="logo" src="./img/fill.svg" class="mask__mask-edit-button" >
+          <button type="button" class="mask__button">
+            <img alt="logo" src="./img/fill.svg" class="mask__mask-edit-button">
           </button>
-          <button type="button" class="masl__button">
-            <img alt="logo" src="./img/contrast.svg" class="mask__mask-edit-button" >
+          <button type="button" class="mask__button">
+            <img alt="logo" src="./img/contrast.svg" class="mask__mask-edit-button">
           </button>
         </div>
         <div class="mask__controll">
           <input type="range" class="mask__range" />
-          <input type="range" class="mask__range mask__range--active" />
-          <input type="range" class="mask__range mask__range--active" />
+          <input type="range" class="mask__range mask__range--hidden" />
+          <input type="range" class="mask__range mask__range--hidden" />
         </div>
-        <div class="mask__buttons">
-          <button class="mask__button mask__button--active">
+        <div class="app-download app-download--bg-white">
+          <button class="app-download__button app-download__button--active">
             Запостить
           </button>
-          <button class="mask__button">
+          <button class="app-download__button app-download__button--passive">
             Отмена
           </button>
         </div>
@@ -255,4 +260,5 @@
     </div>
   </footer>
 </body>
+
 </html>

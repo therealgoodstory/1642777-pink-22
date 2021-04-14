@@ -1,0 +1,53 @@
+.gallery__message {
+  background-color: $background;
+  padding: 15px;
+  margin-bottom: 15px;
+  height: 100%;
+}
+
+.gallery__photo {
+  width: 100%;
+}
+
+.gallery__name {
+  font-size: 14px;
+  font-weight: 700;
+  color: $color-main;
+}
+
+.gallery__time {
+  color: $color-main;
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.gallery__text {
+  font-size: 14px;
+  font-weight: 400;
+  color: $color-main;
+}
+
+.gallery__like-field {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.gallery__like {
+  margin-left: 15px;
+  font-size: 14px;
+  font-weight: 400;
+  color: $color-accent;
+}
+
+.gallery__posts {
+  margin-left: 15px;
+  margin-right: 15px;
+  height: auto;
+  background-color: $background;
+}
+
+.gallery__img {
+  width: 100vw;
+}

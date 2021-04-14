@@ -4,6 +4,10 @@
   flex-direction: column;
   background-color: $color-main;
   padding-top: 30px;
+
+  &--bg-white {
+    background-color: $background;
+  }
 }
 
 .app-download__button {
@@ -16,6 +20,19 @@
   font-size: 18px;
   outline: none;
   font-weight: 700;
+
+  &--active {
+    color: $color-accent;
+    border: 3px solid $color-accent;
+    background-color: $background;
+  }
+
+  &--passive {
+    margin-top: 10px;
+    color: darken($background, 10%);
+    border: 3px solid darken($background, 10%);
+    background-color: $background;
+  }
 
   &:hover {
     background-color: white;
