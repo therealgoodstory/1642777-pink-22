@@ -1,0 +1,29 @@
+.user-data {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  height: auto;
+  background-color: white;
+  border: none;
+}
+
+.user-data__label {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.user-data__title {
+  padding-bottom: 10px;
+  font-weight: 400;
+  color: $color-accent;
+  font-size: 14px;
+  padding-left: 15px;
+  text-transform: uppercase;
+}
+
+.user-data__input {
+  height: 40px;
+  border-radius: 1px;
+  border: 2px solid #e5e5e5;
+  padding-left: 15px;
+}

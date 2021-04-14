@@ -2,6 +2,8 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  background-color: $color-main;
+  padding-top: 30px;
 }
 
 .app-download__button {

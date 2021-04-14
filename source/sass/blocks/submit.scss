@@ -1,0 +1,26 @@
+.submit {
+  border: none;
+  padding: 15px;
+}
+
+.submit__button {
+  height: 59px;
+  width: 100%;
+  border-radius: 1px;
+  border: none;
+  background-color: #2aab6d;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+}
+
+.submit__text {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  color: #283645;
+
+  &:first-child {
+    color: $color-accent;
+  }
+}
