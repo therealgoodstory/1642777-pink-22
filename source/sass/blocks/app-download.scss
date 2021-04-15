@@ -10,41 +10,6 @@
   }
 }
 
-.app-download__button {
-  width: 90vw;
-  height: 55px;
-  border-radius: 29px;
-  background-color: $color-main;
-  border: 3px solid white;
-  color: white;
-  font-size: 18px;
-  outline: none;
-  font-weight: 700;
-
-  &--active {
-    color: $color-accent;
-    border: 3px solid $color-accent;
-    background-color: $background;
-  }
-
-  &--passive {
-    margin-top: 10px;
-    color: darken($background, 10%);
-    border: 3px solid darken($background, 10%);
-    background-color: $background;
-  }
-
-  &:hover {
-    background-color: white;
-    color: $color-accent;
-  }
-
-  &:active {
-    background-color: white;
-    color: lighten($color-accent, 30);
-  }
-}
-
 .app-download__description {
   width: 60vw;
   padding: 0%;

@@ -1,0 +1,45 @@
+.main-btn {
+  width: 90vw;
+  height: 55px;
+  border-radius: 29px;
+  font-size: 18px;
+  outline: none;
+  font-weight: 700;
+}
+
+.main-btn--dark {
+  color: white;
+  background-color: $color-main;
+
+  &:hover {
+    background-color: white;
+    color: $color-accent;
+  }
+
+  &:active {
+    background-color: white;
+    color: lighten($color-accent, 30);
+  }
+}
+
+.main-btn--light {
+  color: $color-accent;
+  border: 3px solid $color-accent;
+  background-color: $background;
+
+  &:hover {
+    background-color: $color-accent;
+    color: white;
+  }
+
+  &:active {
+    color: opacity(white, 30);
+  }
+}
+
+.main-btn--gray {
+  // color: darken($background, 10%);
+  // border: 3px solid darken($background, 10%);
+  // background-color: $background;
+  border: 3px solid rgb(175, 6, 6);
+}
