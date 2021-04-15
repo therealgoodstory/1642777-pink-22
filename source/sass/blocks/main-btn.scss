@@ -10,6 +10,7 @@
 .main-btn--dark {
   color: white;
   background-color: $color-main;
+  border: 3px solid white;
 
   &:hover {
     background-color: white;
@@ -23,6 +24,7 @@
 }
 
 .main-btn--light {
+  margin: 5px;
   color: $color-accent;
   border: 3px solid $color-accent;
   background-color: $background;
@@ -33,13 +35,23 @@
   }
 
   &:active {
-    color: opacity(white, 30);
+    color: lighten($color-main, 60);
   }
 }
 
 .main-btn--gray {
-  // color: darken($background, 10%);
-  // border: 3px solid darken($background, 10%);
-  // background-color: $background;
-  border: 3px solid rgb(175, 6, 6);
+  margin: 5px;
+  color: darken($background, 10%);
+  border: 3px solid darken($background, 10%);
+  background-color: $background;
+
+  &:hover {
+    color: darken($background, 30%);
+    border: 3px solid darken($background, 30%);
+  }
+
+  &:active {
+    color: $background;
+    background-color: darken($background, 30%);
+  }
 }
