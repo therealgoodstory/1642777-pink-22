@@ -1,0 +1,38 @@
+.mask {
+  background-color: $background;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mask__img {
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+.mask__edit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  padding: 15px;
+}
+
+.mask__button {
+  outline: none;
+  border: none;
+}
+
+.mask__controll {
+  display: flex;
+  flex-direction: column;
+}
+
+.mask__range {
+  width: 100%;
+
+  &--hidden {
+    visibility: hidden;
+  }
+}

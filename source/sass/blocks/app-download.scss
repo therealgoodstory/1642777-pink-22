@@ -4,27 +4,9 @@
   flex-direction: column;
   background-color: $color-main;
   padding-top: 30px;
-}
 
-.app-download__button {
-  width: 90vw;
-  height: 55px;
-  border-radius: 29px;
-  background-color: $color-main;
-  border: 3px solid white;
-  color: white;
-  font-size: 18px;
-  outline: none;
-  font-weight: 700;
-
-  &:hover {
-    background-color: white;
-    color: $color-accent;
-  }
-
-  &:active {
-    background-color: white;
-    color: lighten($color-accent, 30);
+  &--bg-white {
+    background-color: $background;
   }
 }
 
