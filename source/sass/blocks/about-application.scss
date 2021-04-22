@@ -1,0 +1,44 @@
+.about-application {
+  display: none;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 5vw;
+    padding-left: 5vw;
+  }
+
+  @media (min-width: $desktop-width) {
+    background-color: $background;
+  }
+}
+
+.about-application__desc {
+  display: flex;
+  flex-direction: column;
+  padding-left: 70px;
+}
+
+.about-application__title {
+  font-weight: 700;
+  font-size: 30px;
+  width: 168px;
+}
+
+.about-application__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #283645;
+}
+
+.about-application__link {
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 20px;
+  color: $color-accent;
+  text-decoration: underline;
+}

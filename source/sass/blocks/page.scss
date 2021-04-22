@@ -2,3 +2,9 @@
   margin: 0;
   font-family: "Open-Sans", sans-serif;
 }
+
+.page__toggle {
+  @media (min-width: $desktop-width) {
+    display: none;
+  }
+}

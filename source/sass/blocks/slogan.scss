@@ -5,10 +5,12 @@
   align-items: center;
   justify-content: center;
   width: 100vw;
+  padding-top: 20px;
+  padding-bottom: 20px;
 
-  &--padding {
-    padding-top: 20px;
-    padding-bottom: 20px;
+  @media (min-width: $tablet-width) {
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 }
 
@@ -22,4 +24,13 @@
   text-align: center;
   font-weight: 300;
   line-height: 120%;
+
+  @media (min-width: $tablet-width) {
+    font-size: 40px;
+    margin: 0;
+
+    &--nowrap {
+      white-space: nowrap;
+    }
+  }
 }

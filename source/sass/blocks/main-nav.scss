@@ -1,21 +1,38 @@
 .main-nav {
   font-weight: 700;
   text-transform: uppercase;
+
+  @media (min-width: $desktop-width) {
+    text-transform: none;
+    font-weight: 400;
+  }
 }
 
 .main-nav__list {
   margin: 0%;
   padding-left: 0%;
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    z-index: 1;
+    padding-left: 15vw;
+  }
 }
 
 .main-nav__item {
   height: 63px;
-  top: 134px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   background: #283645;
+
+  @media (min-width: $desktop-width) {
+    background-color: transparent;
+    width: 15vw;
+  }
 }
 
 .main-nav__link {
