@@ -22,7 +22,6 @@
 
   @media (min-width: $tablet-width) {
     order: 2;
-    width: 50vw;
     padding-left: 5vw;
     position: relative;
     z-index: 0;
@@ -31,6 +30,7 @@
   @media (min-width: $desktop-width) {
     display: flex;
     flex-direction: row;
+    padding-left: 0;
     width: 90vw;
     justify-content: space-between;
   }
@@ -45,7 +45,7 @@
 
   @media (min-width: $tablet-width) {
     align-items: flex-start;
-    width: 20vw;
+    margin: 0;
   }
 
   @media (min-width: $desktop-width) {
@@ -84,7 +84,7 @@
 
   @media (min-width: $tablet-width) {
     height: 480px;
-    width: 268px;
+    width: 350px;
     overflow: hidden;
   }
 
@@ -92,8 +92,8 @@
     display: flex;
     flex-direction: row;
     height: 382px;
-    width: 301px;
-    overflow: hidden;
+    width: 90vw;
+    justify-content: space-between;
   }
 }
 
@@ -109,6 +109,5 @@
   @media (min-width: $tablet-width) {
     width: 268px;
     position: relative;
-    z-index: 1;
   }
 }

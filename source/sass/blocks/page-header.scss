@@ -8,11 +8,11 @@
   background-color: #283645;
 
   @media (min-width: $desktop-width) {
-    position: fixed;
+    position: absolute;
     width: 100vw;
-    z-index: 0;
+    z-index: 1;
     height: 110px;
-    background-color: opacify($color-main, 0);
+    background-color: rgba(0, 0, 0, 0.5);
   }
 }
 
