@@ -1,20 +1,25 @@
 .footer {
+  width: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__container {
+  display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 70px;
-  padding-right: 70px;
+  flex-direction: column;
+  width: 60%;
   padding-bottom: 40px;
   padding-top: 40px;
 
   @media (min-width: $tablet-width) {
     flex-direction: row;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    padding-bottom: 5px;
-    padding-top: 5px;
     justify-content: space-between;
+    min-width: 600px;
+    max-width: 800px;
   }
 }
 
@@ -23,6 +28,7 @@
 }
 
 .footer__socials-field {
+  min-width: 175px;
   list-style-type: none;
   margin: 0%;
   padding: 0%;
@@ -31,10 +37,9 @@
   justify-content: space-between;
   padding-top: 40px;
   padding-bottom: 50px;
-  width: 100%;
 
   @media (min-width: $tablet-width) {
-    width: 30vw;
+    width: 30%;
   }
 }
 

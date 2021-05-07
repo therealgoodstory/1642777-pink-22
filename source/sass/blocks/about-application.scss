@@ -1,19 +1,24 @@
 .about-application {
   display: none;
+  padding-top: 5%;
+  padding-bottom: 5%;
 
   @media (min-width: $tablet-width) {
     display: flex;
-    flex-direction: row;
-    background-color: white;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 5vw;
-    padding-left: 5vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
   }
 
   @media (min-width: $desktop-width) {
     background-color: $background;
   }
+}
+
+.about-application__container {
+  display: flex;
+  flex-direction: row;
 }
 
 .about-application__desc {

@@ -1,6 +1,9 @@
 .page__body {
   margin: 0;
   font-family: "Open-Sans", sans-serif;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .page__toggle {
