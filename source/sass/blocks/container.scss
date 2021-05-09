@@ -4,21 +4,12 @@
   width: 100%;
   position: relative;
 
-  @media (min-width: 500px) {
-    padding-left: 60px;
-    padding-right: 60px;
-  }
-
   @media (min-width: $tablet-width) {
-    min-width: $tablet-width;
-    max-width: 800px;
-    padding-left: 20px;
-    padding-right: 20px;
+    max-width: $tablet-width;
   }
 
   @media (min-width: $desktop-width) {
-    max-width: 1000px;
-    position: relative;
+    max-width: $desktop-width;
   }
 }
 

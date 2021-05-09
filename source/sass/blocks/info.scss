@@ -1,6 +1,6 @@
 .info {
-  position: relative;
   width: 100%;
+  position: relative;
   background-image: url("../img/back-mobile.png");
 
   @media (min-width: $tablet-width) {
@@ -50,19 +50,16 @@
   }
 }
 
+// .info__container-img {
+//   display: flex;
+//   justify-content: center;
+// }
+
 .info__img {
   height: 286px;
 
   @media (min-width: $tablet-width) {
     height: 545px;
-    width: auto;
-    position: absolute;
-    right: 0;
-  }
-
-  @media (min-width: $desktop-width) {
-    height: 700px;
-    width: auto;
     position: absolute;
     right: 0;
   }

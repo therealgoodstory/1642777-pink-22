@@ -24,13 +24,15 @@
 }
 
 .app-download__container {
+  width: 100%;
+
   @media (min-width: $tablet-width) {
     width: 300px;
   }
 }
 
 .app-download__description {
-  padding: 0%;
+  padding: 0;
   padding-left: 40px;
   padding-right: 40px;
   margin-top: 38px;

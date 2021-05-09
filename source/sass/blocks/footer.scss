@@ -18,8 +18,7 @@
   @media (min-width: $tablet-width) {
     flex-direction: row;
     justify-content: space-between;
-    min-width: 600px;
-    max-width: 800px;
+    width: 100%;
   }
 }
 
