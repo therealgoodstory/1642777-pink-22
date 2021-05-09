@@ -1,9 +1,14 @@
 .page__body {
   margin: 0;
   font-family: "Open-Sans", sans-serif;
-  align-items: center;
+  *, *:before, *:after {
+    box-sizing: border-box;
+  }
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .page__toggle {

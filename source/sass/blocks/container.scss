@@ -1,10 +1,19 @@
 .container {
-  width: 90%;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  position: relative;
+
+  @media (min-width: 500px) {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
 
   @media (min-width: $tablet-width) {
-    min-width: 600px;
+    min-width: $tablet-width;
     max-width: 800px;
-    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   @media (min-width: $desktop-width) {
@@ -13,16 +22,3 @@
   }
 }
 
-.container__row-between {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  align-items: center;
-}
-
-.container__column-between {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}

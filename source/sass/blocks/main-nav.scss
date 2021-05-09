@@ -29,15 +29,15 @@
 }
 
 .main-nav__item {
-  min-height: 110px;
-  width: 100%;
+  min-height: 63px;
   display: flex;
   justify-content: center;
   align-items: center;
   background: #283645;
+  border: 1px solid black;
 
   @media (min-width: $desktop-width) {
-    width: auto;
+    min-height: 110px;
     background-color: transparent;
   }
 }

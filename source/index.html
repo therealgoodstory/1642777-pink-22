@@ -11,85 +11,89 @@
 
 <body class="page__body">
   <header class="page-header">
-    <div class="container container__row-between">
-      <a class="page-header__logo" href="/">
-        <img src="img/logotype-mobile.svg" alt="Logo" class="page-header__logo--size" />
-      </a>
-      <button class="page__toggle" type="button">
-        x
-      </button>
+    <div class="container">
+      <div class="page-header__main">
+        <a class="page-header__logo" href="/">
+          <img src="img/logotype-mobile.svg" alt="Logo" class="page-header__logo--size" />
+        </a>
+        <button class="page__toggle" type="button">
+          x
+        </button>
+      </div>
     </div>
+    <nav class="main-nav main-nav--hiden">
+      <ul class="main-nav__list">
+        <li class="main-nav__item">
+          <a class="main-nav__link">
+            Главная
+          </a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="/catalog.html">
+            Фотографии
+          </a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="/form.html">
+            Конкурс
+          </a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="/https://htmlacademy.ru" target="_blank">
+            Html Academy
+          </a>
+        </li>
+      </ul>
+    </nav>
   </header>
-  <nav class="main-nav main-nav--hiden">
-    <ul class="main-nav__list">
-      <li class="main-nav__item">
-        <a class="main-nav__link">
-          Главная
-        </a>
-      </li>
-      <li class="main-nav__item">
-        <a class="main-nav__link" href="/catalog.html">
-          Фотографии
-        </a>
-      </li>
-      <li class="main-nav__item">
-        <a class="main-nav__link" href="/form.html">
-          Конкурс
-        </a>
-      </li>
-      <li class="main-nav__item">
-        <a class="main-nav__link" href="/https://htmlacademy.ru" target="_blank">
-          Html Academy
-        </a>
-      </li>
-    </ul>
-  </nav>
   <main class="main-index">
     <section class="info">
       <div class="container">
         <div class="info__container">
-          <div class="info__header">
-            <h1 class="info__title">
-              Взгляните на жизнь иначе!
-            </h1>
-            <img alt="telephone=head" src="./img/telephone-head.png" class="info__img" />
-          </div>
-          <div class="app-download">
-            <div class="app-download__container">
-              <button class="main-btn main-btn--dark">
-                Скачать приложение
-              </button>
-              <ul class="app-download__description">
-                <li class="app-download__logo">
-                  <a target="_blank" href="https://www.apple.com/ru/app-store/">
-                    <img alt="logo-apple" src="img/apple-logo.svg" />
-                  </a>
-                </li>
-                <li class="app-download__logo">
-                  <a target="_blank" href="https://play.google.com/store/apps?hl=ru&gl=US">
-                    <img alt="logo-android" src="img/android-logo.svg" />
-                  </a>
-                </li>
-                <li class="app-download__logo">
-                  <a target="_blank" href="https://www.microsoft.com/ru-tm/store/b/home">
-                    <img alt="logo-microsoft" src="img/microsoft-logo.svg" />
-                  </a>
-                </li>
-              </ul>
-              <p class="app-download__info">Доступно для iPhone, iPad, Android, <br /> Windows Phone, OS X, Windows 8
-              </p>
-            </div>
+          <h1 class="info__title">
+            Взгляните на жизнь иначе!
+          </h1>
+          <img alt="telephone=head" src="./img/telephone-head.png" class="info__img" />
+        </div>
+      </div>
+      <div class="app-download">
+        <div class="container">
+          <div class="app-download__container">
+            <button class="main-btn main-btn--dark">
+              Скачать приложение
+            </button>
+            <ul class="app-download__description">
+              <li class="app-download__logo">
+                <a target="_blank" href="https://www.apple.com/ru/app-store/">
+                  <img alt="logo-apple" src="img/apple-logo.svg" />
+                </a>
+              </li>
+              <li class="app-download__logo">
+                <a target="_blank" href="https://play.google.com/store/apps?hl=ru&gl=US">
+                  <img alt="logo-android" src="img/android-logo.svg" />
+                </a>
+              </li>
+              <li class="app-download__logo">
+                <a target="_blank" href="https://www.microsoft.com/ru-tm/store/b/home">
+                  <img alt="logo-microsoft" src="img/microsoft-logo.svg" />
+                </a>
+              </li>
+            </ul>
+            <p class="app-download__info">Доступно для iPhone, iPad, Android, <br /> Windows Phone, OS X, Windows 8
+            </p>
           </div>
         </div>
       </div>
     </section>
     <div class="slogan">
-      <p class="slogan__item slogan__item--nowrap">
-        Устали от серости мегаполиса?
-      </p>
-      <p class="slogan__item">
-        Нам есть, что вам <br /> предложить!
-      </p>
+      <div class="container">
+        <p class="slogan__item slogan__item--nowrap">
+          Устали от серости мегаполиса?
+        </p>
+        <p class="slogan__item">
+          Нам есть, что вам <br /> предложить!
+        </p>
+      </div>
     </div>
     <section class="app-description">
       <div class="container app-description__position">
@@ -156,35 +160,37 @@
       </div>
     </section>
     <section class="slider">
-      <ul class="container">
-        <li class="slider__item">
-          <h3 class="slider__title">
-            Николай Петров
-          </h3>
-          <span class="slider__text">
-            «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я
-            познакомился со своей будущей женой в комментариях к выложенной фотографии!»
-          </span>
-        </li>
-        <li class="slider__item">
-          <h3 class="slider__title">
-            Николай Петров
-          </h3>
-          <span class="slider__text">
-            «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я
-            познакомился со своей будущей женой в комментариях к выложенной фотографии!»
-          </span>
-        </li>
-        <li class="slider__item">
-          <h3 class="slider__title">
-            Николай Петров
-          </h3>
-          <span class="slider__text">
-            «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я
-            познакомился со своей будущей женой в комментариях к выложенной фотографии!»
-          </span>
-        </li>
-      </ul>
+      <div class="container">
+        <ul class="slider__container">
+          <li class="slider__item">
+            <h3 class="slider__title">
+              Николай Петров
+            </h3>
+            <span class="slider__text">
+              «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я
+              познакомился со своей будущей женой в комментариях к выложенной фотографии!»
+            </span>
+          </li>
+          <li class="slider__item">
+            <h3 class="slider__title">
+              Николай Петров
+            </h3>
+            <span class="slider__text">
+              «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я
+              познакомился со своей будущей женой в комментариях к выложенной фотографии!»
+            </span>
+          </li>
+          <li class="slider__item">
+            <h3 class="slider__title">
+              Николай Петров
+            </h3>
+            <span class="slider__text">
+              «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я
+              познакомился со своей будущей женой в комментариях к выложенной фотографии!»
+            </span>
+          </li>
+        </ul>
+      </div>
       <div class="button-dots">
         <button class="button-dots__item button-dots__item--active" type="button"></button>
         <button class="button-dots__item" type="button"></button>
@@ -243,65 +249,71 @@
     </section>
     <section>
       <div class="slogan">
-        <p class="slogan__item">Остались вопросы? <br /> Свяжитесь с нами!</p>
+        <div class="container">
+          <p class="slogan__item">Остались вопросы? <br /> Свяжитесь с нами!</p>
+        </div>
       </div>
       <ul class="contacts">
-        <li class="contacts__item">
-          <h3 class="contacts__title">
-            Звоните:
-          </h3>
-          <a class="contacts__text" href="tel:+78125556666">
-            +7 (812) 555-66-66
-          </a>
-        </li>
-        <li class="contacts__item">
-          <h3 class="contacts__title">
-            Пишите:
-          </h3>
-          <a class="contacts__text" href="mailto:https://htmlacademy.ru/study">
-            mail@htmlacademy.ru
-          </a>
-        </li>
-        <li class="contacts__item">
-          <h3 class="contacts__title">
-            Приезжайте в гости:
-          </h3>
-          <span class="contacts__text">
-            ул. Большая <br />
-            Конюшенная, 19/8
-          </span>
-        </li>
+        <div class="container">
+          <li class="contacts__item">
+            <h3 class="contacts__title">
+              Звоните:
+            </h3>
+            <a class="contacts__text" href="tel:+78125556666">
+              +7 (812) 555-66-66
+            </a>
+          </li>
+          <li class="contacts__item">
+            <h3 class="contacts__title">
+              Пишите:
+            </h3>
+            <a class="contacts__text" href="mailto:https://htmlacademy.ru/study">
+              mail@htmlacademy.ru
+            </a>
+          </li>
+          <li class="contacts__item">
+            <h3 class="contacts__title">
+              Приезжайте в гости:
+            </h3>
+            <span class="contacts__text">
+              ул. Большая <br />
+              Конюшенная, 19/8
+            </span>
+          </li>
+        </div>
       </ul>
     </section>
     <section class="map">
       map
     </section>
   </main>
-  <footer class="footer">
-    <div class="footer__container">
-      <img alt="footer-logo" src="img/logotype-blue-tablet.svg" class="footer__img" />
-      <ul class="footer__socials-field">
-        <li class="footer__socials">
-          <a href="https://www.facebook.com/" target="_blank">
-            <img alt="facebook-logo" src="img/facebook.svg" />
+  <footer class="container">
+    <div class="footer">
+      <div class="footer__container">
+        <img alt="footer-logo" src="img/logotype-blue-tablet.svg" class="footer__img" />
+        <ul class="footer__socials-field">
+          <li class="footer__socials">
+            <a href="https://www.facebook.com/" target="_blank">
+              <img alt="facebook-logo" src="img/facebook.svg" />
+            </a>
+          </li>
+          <li class="footer__socials">
+            <a href="https://twitter.com/" target="_blank">
+              <img alt="twitter-logo" src="img/twitter.svg" />
+            </a>
+          </li>
+          <li class="footer__socials">
+            <a href="https://www.youtube.com/" target="_blank">
+              <img alt="youtube-logo" src="img/youtube.svg" />
+            </a>
+          </li>
+        </ul>
+        <div class="author">
+          <span class="author__title">Разработано</span>
+          <a href="https://htmlacademy.ru/" target="_blank">
+            <img alt="htmlacademy-logo" src="img/htmlacademy.svg" class="author__logo" />
           </a>
-        </li>
-        <li class="footer__socials">
-          <a href="https://twitter.com/" target="_blank">
-            <img alt="twitter-logo" src="img/twitter.svg" />
-          </a>
-        </li>
-        <li class="footer__socials">
-          <a href="https://www.youtube.com/" target="_blank">
-            <img alt="youtube-logo" src="img/youtube.svg" />
-          </a>
-        </li>
-      </ul>
-      <div class="author">
-        <span class="author__title">Разработано</span>
-        <a href="https://htmlacademy.ru/" target="_blank">
-          <img alt="htmlacademy-logo" src="img/htmlacademy.svg" class="author__logo" />
-        </a>
+        </div>
       </div>
     </div>
   </footer>
